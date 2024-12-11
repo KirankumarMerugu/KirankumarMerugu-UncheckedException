@@ -13,6 +13,8 @@ public class Lab {
      * event happens, like running out of computer memory.
      */
     public void throwUncheckedException(){
+        int[] numbers = new int[1];
+        int outOfBoundsElement = numbers[5];
 
     }
 }
